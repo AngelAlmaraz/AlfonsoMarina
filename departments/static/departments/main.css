@@ -2,7 +2,8 @@ body{
     background-color: #FFFEFE;
 }
 header{
-    margin-top: .7em;
+    background-color: #FFFEFE;
+    padding-top: .7em;
     margin-bottom: .7em;
 }
 #logo{
@@ -12,6 +13,7 @@ header{
       margin-right: auto;
 }
  #content-main{
+    margin-top: 7em;
     background-image: url("https://raw.githubusercontent.com/AngelAlmaraz/Textures/main/rhombus2.jpg");
     background-position: center;
     background-repeat:no-repeat ;
@@ -46,6 +48,8 @@ body {
 }
 
 footer{
+    position: relative;
+    bottom: 1px;
     background-color: #DBCFC9;
 }
 .footer-txt{
