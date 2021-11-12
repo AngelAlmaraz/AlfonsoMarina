@@ -1,0 +1,56 @@
+body{
+    background-color: #FFFEFE;
+}
+header{
+    margin-top: .7em;
+    margin-bottom: .7em;
+}
+#logo{
+      text-align: center;
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+}
+ #content-main{
+    background-image: url("https://raw.githubusercontent.com/AngelAlmaraz/Textures/main/rhombus2.jpg");
+    background-position: center;
+    background-repeat:no-repeat ;
+       background-size: cover;
+     margin-left: 2em;
+     margin-right: 2em;
+     filter: opacity(50%);
+
+}
+
+body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+}
+
+.navbar{
+    width: 100%;
+}
+
+.nav-link{
+    color: #8C7C70;
+}
+.nav-link:hover{
+    color: #DBCFC9;
+}
+.navbar-brand{
+    color: #DBCFC9;
+}
+.navbar-brand:hover{
+    color: #8C7C70;
+}
+
+footer{
+    background-color: #DBCFC9;
+}
+.footer-txt{
+    color: #75675b;
+}
+.footer-txt:hover{
+    color: #78695c;
+}

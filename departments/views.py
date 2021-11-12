@@ -8,17 +8,24 @@ from django.http import HttpResponse
 #  we generate a bit of context data
 
 dpts = [
-    {'Dpt_Name': 'Ventas',
-     'Contents':'Dummy content'},
+
+    {
+    'Dpt_Name': 'Ventas',
+    'Contents':'Dummy content'
+    },
     {'Dpt_Name': 'Recursos_Humanos',
-     'Contents':'Dummy content'},
+     'Contents':'Dummy content'
+     },
     {'Dpt_Name': 'Marketing',
-     'Contents':'Dummy content'}
+     'Contents':'Dummy content'
+     }
 ]
 
 def home(request):
-    context = dpts
+    context = {
+        'dpts': dpts
+    }
     return render(request, 'departments/home.html', context)
 
 def about(request):
-    return render(request, 'departments/about.html')
+    return render(request, 'departments/about.html', {'title':'About'})

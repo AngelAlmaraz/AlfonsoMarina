@@ -1,17 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title> Home </title>
-</head>
-<body>
+{% extends "departments/base.html" %}
 
-        <h1> Departents Home Landing page </h1>
+{%  block content %}
+
+    <img id="logo" src="https://raw.githubusercontent.com/AngelAlmaraz/Textures/main/rhombus2.jpg" alt="Logo">
+
+    <h1> Departents Home Landing page </h1>
 
     {% for dpt in dpts %}
         <h1> {{ dpt.Dpt_Name }} </h1>
         <p> {{ dpt.Contents }} </p>
     {% endfor %}
 
-</body>
-</html>
+
+
+{%  endblock content %}
