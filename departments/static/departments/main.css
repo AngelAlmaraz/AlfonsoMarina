@@ -58,3 +58,26 @@ footer{
 .footer-txt:hover{
     color: #78695c;
 }
+
+.testOmar{
+    color: #e800ff;
+}
+
+.DepartmentsContainer {
+    width: calc(80vw);
+    background: gray;
+    overflow-y: auto;
+}
+
+.DepartmentsBlocks > img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    background: lightgray;
+    margin: 15px;
+}
+
+.ButtonImage {
+    width: 100px;
+    height: 100px;
+}

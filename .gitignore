@@ -2,3 +2,6 @@ venv/
 .idea/vcs.xml
 venv/bin/python
 venv/bin/python3.8
+*.pyc
+venv/bin/python
+.idea/misc.xml
