@@ -1,8 +1,7 @@
 {% extends "departments/base.html" %}
+{% load static %}
 
 {%  block content %}
-
-    <img id="logo" src="https://raw.githubusercontent.com/AngelAlmaraz/Textures/main/rhombus2.jpg" alt="Logo">
 
     <h1> Departents Home Landing page </h1>
 
@@ -12,5 +11,25 @@
     {% endfor %}
 
 
-
+    <p class="testOmar"> Hola crayola</p>
+    <div class="DepartmentsContainer">
+        <div class="DepartmentsBlocks">
+            <a href="#/Action1" class="button">
+                <img class="ButtonImage" src="{% static 'departments/Pictures/Dep1.png' %}"></a>
+            <a href="#/Action2" class="button">
+                <img class="ButtonImage" src="{% static 'departments/Pictures/Dep2.png' %}"></a>
+            <a href="#/Action3" class="button">
+                <img class="ButtonImage" src="{% static 'departments/Pictures/Dep3.png' %}"></a>
+            <a href="#/Action4" class="button">
+                <img class="ButtonImage" src="{% static 'departments/Pictures/Dep4.png' %}"></a>
+            <a href="#/Action5" class="button">
+                <img class="ButtonImage" src="{% static 'departments/Pictures/Dep5.png' %}"></a>
+            <a href="#/Action3" class="button">
+                <img class="ButtonImage" src="{% static 'departments/Pictures/Dep6.png' %}"></a>
+            <a href="#/Action4" class="button">
+                <img class="ButtonImage" src="{% static 'departments/Pictures/Dep7.png' %}"></a>
+            <a href="#/Action5" class="button">
+                <img class="ButtonImage" src="{% static 'departments/Pictures/Dep8.png' %}"></a>
+        </div>
+    </div>
 {%  endblock content %}
