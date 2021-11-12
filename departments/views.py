@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from .models import Department
 
 
 # We return what we want the user to see when directed to this route
@@ -23,7 +23,7 @@ dpts = [
 
 def home(request):
     context = {
-        'dpts': dpts
+        'dpts': Department.objects.all()
     }
     return render(request, 'departments/home.html', context)
 
