@@ -1,4 +1,4 @@
-#!/home/alma/PycharmProjects/AlfonsoMarina/venv/bin/python
+#!/home/alma/Documents/GitHub/AlfonsoMarina/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
