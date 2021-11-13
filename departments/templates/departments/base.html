@@ -35,14 +35,15 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarToggle">
         <div class="navbar-nav mr-auto">
-          <a class="nav-item nav-link" href="/">Inicio</a>
-          <a class="nav-item nav-link" href="/about">Acerca De</a>
-          <a class="nav-item nav-link" href="/">Departamentos</a>
+          <a class="nav-item nav-link" href="{% url 'departments-home' %}">Inicio</a>
+          <a class="nav-item nav-link" href="{% url 'departments-about' %}">Acerca De</a>
+          <a class="nav-item nav-link" href="{% url 'departments-home' %}">Departamentos</a>
+          <a class="nav-item nav-link" href="/admin">Admin</a>
         </div>
         <!-- Navbar Right Side -->
         <div class="navbar-nav">
-          <a class="nav-item nav-link" href="#">Iniciar Sesión</a>
-          <a class="nav-item nav-link" href="/register">Registrarse</a>
+          <a class="nav-item nav-link" href="{% url 'login' %}">Iniciar Sesión</a>
+          <a class="nav-item nav-link" href="{% url 'register' %}">Registrarse</a>
         </div>
       </div>
     </div>
