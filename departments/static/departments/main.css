@@ -20,6 +20,7 @@ header{
     background-size: cover;
     margin-left: 2em;
     margin-right: 2em;
+    margin-bottom: 2em;
 }
 
 body {
@@ -96,4 +97,18 @@ footer{
     padding-left: 2em;
     padding-top: 1em;
     padding-bottom: 1em;
+}
+
+#register-form{
+    margin: 2em;
+}
+
+.btn-outline-info{
+    color: #8C7C70;
+    border-color: #8C7C70;
+}
+.btn-outline-info:hover{
+    background-color: #8C7C70;
+    border-color: #8C7C70;
+    color: white;
 }
