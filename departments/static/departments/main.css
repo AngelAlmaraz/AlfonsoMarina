@@ -80,4 +80,20 @@ footer{
     height: 100px;
 }
 
-
+.image-placeholder{
+    overflow: hidden;
+    height: 20em;
+}
+.card-img-top{
+    overflow: hidden;
+}
+.card-img-top > img {
+    overflow: hidden;
+    position: relative;
+    float: bottom;
+}
+.card-body{
+    padding-left: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}

@@ -8,7 +8,11 @@
     {% for dpt in dpts %}
         <div>
             <div class="card">
-                <a href="/register"><img class="card-img-top" src="../../static/departments/Pictures/{{ dpt.image }}" alt="Card image cap"></a>
+
+                <div class="image-placeholder">
+                    <a href="/register"><img class="card-img-top" src="../../static/departments/Pictures/{{ dpt.image }}"  alt="Card image cap"></a>
+                </div>
+
                 <div class="card-body">
                     <h4><a href="/register">{{ dpt.name }}</a></h4>
                 </div>
