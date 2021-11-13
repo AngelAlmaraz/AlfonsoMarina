@@ -38,12 +38,20 @@
           <a class="nav-item nav-link" href="{% url 'departments-home' %}">Inicio</a>
           <a class="nav-item nav-link" href="{% url 'departments-about' %}">Acerca De</a>
           <a class="nav-item nav-link" href="{% url 'departments-home' %}">Departamentos</a>
+            {% if user.is_staff %}
           <a class="nav-item nav-link" href="/admin">Admin</a>
+            {% endif %}
         </div>
         <!-- Navbar Right Side -->
         <div class="navbar-nav">
-          <a class="nav-item nav-link" href="{% url 'login' %}">Iniciar Sesión</a>
-          <a class="nav-item nav-link" href="{% url 'register' %}">Registrarse</a>
+            {% if user.is_authenticated %}
+                <a class="nav-item nav-link" href="{% url 'profile' %}">{{ user.username}} </a>
+                <a class="nav-item nav-link" href="{% url 'logout' %}">Cerrar Sesión</a>
+            {% else %}
+                <a class="nav-item nav-link" href="{% url 'login' %}">Iniciar Sesión</a>
+                <a class="nav-item nav-link" href="{% url 'register' %}">Registrarse</a>
+            {% endif %}
+
         </div>
       </div>
     </div>

@@ -4,6 +4,6 @@ from departments.models import Department
 
 # Create your models here.
 
-# class User(models.Model):
-#     department = Department(default='')
+# class User(User):
+#     super().department = Department(name='')
 #
