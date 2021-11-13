@@ -14,14 +14,12 @@ header{
 }
  #content-main{
     margin-top: 7em;
-    background-image: url("https://raw.githubusercontent.com/AngelAlmaraz/Textures/main/rhombus2.jpg");
+    background-image: url("https://raw.githubusercontent.com/AngelAlmaraz/Textures/main/imgonline-com-ua-Color-filter-RhE6534ieSwp.jpg");
     background-position: center;
     background-repeat:no-repeat ;
-       background-size: cover;
-     margin-left: 2em;
-     margin-right: 2em;
-     filter: opacity(50%);
-
+    background-size: cover;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 body {
