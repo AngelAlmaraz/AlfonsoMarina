@@ -11,7 +11,7 @@
             <div class="card">
 
                 <div class="image-placeholder">
-                    <a href="/" ><img class="card-img-top" src="../../static/departments/Pictures/{{ dpt.image }}"  alt="Card image cap"></a>
+                    <a href="{% url 'departments-detail' dpt.id %}" ><img class="card-img-top" src="../../static/departments/Pictures/{{ dpt.image }}"  alt="Card image cap"></a>
                 </div>
 
                 <div class="card-body">
