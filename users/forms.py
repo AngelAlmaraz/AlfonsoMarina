@@ -15,7 +15,7 @@ class UserRegisterForm(UserCreationForm):
         fields = ['username','email','department','password1','password2']
 
 
-class UserUpdateForm(UserCreationForm):
+class UserUpdateForm(forms.ModelForm):
     email = forms.EmailField()
     dpt_list = list(Department.objects.values_list())
     choices = [(str(i[0]), i[1]) for i in dpt_list]
