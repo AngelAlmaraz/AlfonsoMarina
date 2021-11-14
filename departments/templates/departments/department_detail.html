@@ -1,0 +1,23 @@
+{% extends "departments/base.html" %}
+{% load static %}
+
+{%  block content %}
+    <br>
+
+    <h1 style="text-align: center"> {{ object.name }} </h1>
+    <br>
+        <div>
+            <div class="card">
+
+                <div class="image-placeholder">
+                    <img class="card-img-top" src="../../static/departments/Pictures/{{ object.image }}"  alt="Card image cap">
+                </div>
+
+                <div class="card-body">
+                    <h4>{{ object.name }}</h4>
+                </div>
+            </div>
+            <br>
+        </div>
+
+{%  endblock content %}
