@@ -15,7 +15,7 @@
                 </div>
 
                 <div class="card-body">
-                    <h4><a href="/register">{{ dpt.name }}</a></h4>
+                    <h4><a href="{% url 'departments-detail' dpt.id %}">{{ dpt.name }}</a></h4>
                 </div>
             </div>
             <br>
